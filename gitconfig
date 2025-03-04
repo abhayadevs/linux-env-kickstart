@@ -1,0 +1,7 @@
+[color]
+        ui = auto
+[user]
+        name = Abhaydev Sankaran
+        email = abhay@abs-labs.com
+[safe]
+        directory = /data/abhayadevs/*
