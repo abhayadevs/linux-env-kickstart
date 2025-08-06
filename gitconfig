@@ -5,3 +5,7 @@
         email = abhay@abs-labs.com
 [safe]
         directory = /data/abhayadevs/*
+[url "https://abs-lad.com"]
+        insteadOf="https://abs2labs.com"
+[http]
+        postBuffer = 10g
