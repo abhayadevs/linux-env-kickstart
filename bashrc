@@ -67,3 +67,12 @@ function dump_repo_snapshot(){
 
 echo "################################################"
 echo "screen -dRR default"
+
+# start screen if its not on screen already.
+#if [ "x$TERM" != "xscreen" ]; then
+#  screen -dRR default
+#fi
+
+#echo "############  $HOSTNAME, running in $TERM mode  ##############"
+#echo "sudo iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE"
+#echo "################################################################"
